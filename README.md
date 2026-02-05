@@ -1,20 +1,23 @@
-# 📺 TV Remote Simulator
+# ☕ Java Projects
 
-A Java project demonstrating **Object-Oriented Programming** concepts through a TV remote control simulation.
+A collection of Java projects demonstrating various programming concepts and techniques.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 
 ---
 
-## 🎯 Purpose
+## 📁 Projects
+
+### 📺 TV Remote Simulator
+
+A project demonstrating **Object-Oriented Programming** concepts through a TV remote control simulation.
+
+#### 🎯 Purpose
 
 This project practices working with **classes and object-orientation** by creating a `TV` class that simulates a television with controllable properties like volume, channel, and power state.
 
----
+#### 🏗️ Class Structure
 
-## 🏗️ Class Structure
-
-### TV Class
 ```java
 public class TV {
     // Properties
@@ -34,9 +37,7 @@ public class TV {
 }
 ```
 
----
-
-## ✨ Features
+#### ✨ Features
 
 - **Power Control:** Turn TV on/off
 - **Channel Management:**
@@ -47,9 +48,7 @@ public class TV {
   - Volume up/down adjustment
 - **State Validation:** Operations only work when TV is on
 
----
-
-## 🧠 OOP Concepts Demonstrated
+#### 🧠 OOP Concepts Demonstrated
 
 | Concept | Implementation |
 |---------|----------------|
@@ -57,18 +56,18 @@ public class TV {
 | **State Management** | `isOn` flag controls method behavior |
 | **Validation** | Boundary checking for channel/volume |
 
----
-
-## 🚀 Getting Started
+#### 🚀 Running the TV Remote
 
 ```bash
-# Clone the repository
-git clone https://github.com/nedmac99/TvRemote.git
-cd TvRemote
-
 # Compile
 javac TV.java TvRemote.java
 
 # Run
 java TvRemote
 ```
+
+---
+
+## 🔜 More Projects Coming Soon
+
+This repository will be updated with additional Java projects over time. Stay tuned!
